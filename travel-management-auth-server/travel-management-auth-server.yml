@@ -1,0 +1,11 @@
+server:
+  port: 8764
+spring:
+  data:
+    mongodb:
+      database: TMS
+      host: localhost
+      port: 27017
+client:
+  id: client
+  secret: secret
