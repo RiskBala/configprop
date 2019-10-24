@@ -3,9 +3,7 @@ server:
 spring:
   data:
     mongodb:
-      database: TMS
-      host: localhost
-      port: 27017
+      uri: mongodb://${database-user}:${database-password}@mongodb/${database-name}
 client:
   id: client
   secret: secret

@@ -3,4 +3,4 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/TMS
+      uri: mongodb://${database-user}:${database-password}@mongodb/${database-name}
