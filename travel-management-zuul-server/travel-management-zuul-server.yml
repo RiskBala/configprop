@@ -29,3 +29,11 @@ zuul:
       path: /trip-summary/**
       serviceId: travel-management-trip-summary-api
       strip-prefix: false
+    event-detail-api:
+      path: /events/**
+      serviceId: event-detail-api
+      strip-prefix: false
+    event-creation-api:
+      path: /event/**
+      serviceId: event-creation-api
+      strip-prefix: false

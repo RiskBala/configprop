@@ -1,0 +1,6 @@
+server:
+  port: 8766
+spring:
+  data:
+    mongodb:
+      uri: mongodb://${database-user}:${database-password}@mongodb/${database-name}
